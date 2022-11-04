@@ -1,0 +1,24 @@
+C:\Users\Valtinho\Programas\ConsultaVeiculos\bin\Debug\ConsultaVeiculos.exe.config
+C:\Users\Valtinho\Programas\ConsultaVeiculos\bin\Debug\ConsultaVeiculos.exe
+C:\Users\Valtinho\Programas\ConsultaVeiculos\bin\Debug\ConsultaVeiculos.pdb
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.FrmConsultaVeiculos.resources
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.Properties.Resources.resources
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.GenerateResource.cache
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.CoreCompileInputs.cache
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.exe
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.pdb
+C:\Users\Valtinho\Programas\ConsultaVeiculos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Valtinho\Programas\ConsultaVeiculos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Valtinho\Programas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.CopyComplete
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Debug\Consulta Placa de Veiculos.exe.config
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Debug\Consulta Placa de Veiculos.exe
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Debug\Consulta Placa de Veiculos.pdb
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.FrmConsultaVeiculos.resources
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.Properties.Resources.resources
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.GenerateResource.cache
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.CoreCompileInputs.cache
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.CopyComplete
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\Consulta Placa de Veiculos.exe
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\Consulta Placa de Veiculos.pdb
