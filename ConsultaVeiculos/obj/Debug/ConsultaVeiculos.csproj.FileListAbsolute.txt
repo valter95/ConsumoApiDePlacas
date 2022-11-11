@@ -22,3 +22,5 @@ C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\Consul
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csproj.CopyComplete
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\Consulta Placa de Veiculos.exe
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\Consulta Placa de Veiculos.pdb
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.csprojAssemblyReference.cache
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Debug\ConsultaVeiculos.FrmLoading.resources

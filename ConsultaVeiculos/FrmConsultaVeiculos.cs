@@ -26,6 +26,8 @@ namespace ConsultaVeiculos
         List<string> jsonRetornado = new List<string>();
         ModelConsulta veiculo = new ModelConsulta();
         Regex validaPlacaDigitada = new Regex(@"^[A-z]{3}[0-9]{1}[A-z 0-9]{1}[0-9]{2}");
+        FrmLoading loging;
+        Thread loadingThread;
         #endregion
 
         #region Inicialização
@@ -44,6 +46,37 @@ namespace ConsultaVeiculos
         #endregion
 
         #region Metodos
+
+        public void Show()
+        {
+            loadingThread = new Thread(new ThreadStart(LoadingProcess));
+            loadingThread.Start();
+        }
+        public void Show(Form parent) 
+        {
+            loadingThread = new Thread(new ParameterizedThreadStart(LoadingProcess));
+            loadingThread.Start(parent);
+        }
+        public void Close()
+        {
+            if (loging != null)
+            {
+                loging.BeginInvoke(new ThreadStart(loging.CloseWaitForm));
+                loging = null;
+                loadingThread = null;
+            }
+        }
+        private void LoadingProcess() 
+        {
+            loging = new FrmLoading();
+            loging.ShowDialog();
+        }
+        private void LoadingProcess(object parent)
+        {
+            Form parent1 = parent as Form;
+            loging = new FrmLoading(parent1);
+            loging.ShowDialog();
+        }
         private async Task BuscaPlaca(string placa)
         {
             try
@@ -69,7 +102,7 @@ namespace ConsultaVeiculos
                     MessageBox.Show("Não houve nenhem retorno" + resp.ReasonPhrase);
                 }
             }
-            catch (Exception ex){ }
+            catch (Exception ex) { }
         }
         private void AtribuiDadosAComponentes(ModelConsulta dados)
         {
@@ -93,7 +126,7 @@ namespace ConsultaVeiculos
             catch (Exception ex) { }
         }
 
-        private void LimpaCampos() 
+        private void LimpaCampos()
         {
             lblAno.Text = string.Empty;
             lblAnoModelo.Text = string.Empty;
@@ -125,20 +158,21 @@ namespace ConsultaVeiculos
             lblAjudaUser.Visible = false;
 
             placa = txtPlaca.Text;
-            picBoxLoading.Visible = true;
+            Show(this);
+            Thread.Sleep(2000);
             BuscaPlaca(placa).Wait(2000);
-            picBoxLoading.Visible = false ;
+            Close();
             Width = 650;
             Height = 495;
-            
+
             TimerHabiliarCampos.Enabled = true;
             txtPlaca.Enabled = false;
             btnConsulta.Enabled = false;
         }
         private void TimerHabiliarCampos_Tick(object sender, EventArgs e)
         {
-            
-            if (TimerHabiliarCampos.Interval == 60000) 
+
+            if (TimerHabiliarCampos.Interval == 60000)
             {
                 txtPlaca.Enabled = true;
                 btnConsulta.Enabled = true;

@@ -15,9 +15,6 @@ namespace ConsultaVeiculos.Model
         {
             combustivel = new ModelCombustivel();
         }
-
-        
-
         public string Chassi { get => chassi; set => chassi = value; }
         public ModelCombustivel Combustivel { get => combustivel; set => combustivel = value; }
     }

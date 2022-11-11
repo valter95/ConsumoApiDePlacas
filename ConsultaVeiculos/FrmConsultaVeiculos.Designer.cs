@@ -55,12 +55,12 @@
             this.lblMunicipio = new System.Windows.Forms.Label();
             this.lblChassi = new System.Windows.Forms.Label();
             this.label13 = new System.Windows.Forms.Label();
-            this.picImagemLogo = new System.Windows.Forms.PictureBox();
             this.label12 = new System.Windows.Forms.Label();
             this.txtPlaca = new System.Windows.Forms.TextBox();
             this.btnConsulta = new System.Windows.Forms.Button();
             this.TimerHabiliarCampos = new System.Windows.Forms.Timer(this.components);
             this.lblAjudaUser = new System.Windows.Forms.Label();
+            this.picImagemLogo = new System.Windows.Forms.PictureBox();
             this.picBoxLoading = new System.Windows.Forms.PictureBox();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.picImagemLogo)).BeginInit();
@@ -342,16 +342,6 @@
             this.label13.TabIndex = 22;
             this.label13.Text = "Chassi:";
             // 
-            // picImagemLogo
-            // 
-            this.picImagemLogo.Image = ((System.Drawing.Image)(resources.GetObject("picImagemLogo.Image")));
-            this.picImagemLogo.Location = new System.Drawing.Point(199, 28);
-            this.picImagemLogo.Name = "picImagemLogo";
-            this.picImagemLogo.Size = new System.Drawing.Size(116, 90);
-            this.picImagemLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.picImagemLogo.TabIndex = 15;
-            this.picImagemLogo.TabStop = false;
-            // 
             // label12
             // 
             this.label12.AutoSize = true;
@@ -398,6 +388,16 @@
             this.lblAjudaUser.TabIndex = 15;
             this.lblAjudaUser.Text = "• Formato deve ser (AAA1111 / AAA1A11)";
             this.lblAjudaUser.Visible = false;
+            // 
+            // picImagemLogo
+            // 
+            this.picImagemLogo.Image = ((System.Drawing.Image)(resources.GetObject("picImagemLogo.Image")));
+            this.picImagemLogo.Location = new System.Drawing.Point(199, 28);
+            this.picImagemLogo.Name = "picImagemLogo";
+            this.picImagemLogo.Size = new System.Drawing.Size(116, 90);
+            this.picImagemLogo.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.picImagemLogo.TabIndex = 15;
+            this.picImagemLogo.TabStop = false;
             // 
             // picBoxLoading
             // 

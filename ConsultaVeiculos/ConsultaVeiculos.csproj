@@ -55,11 +55,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ConsultaPlaca.cs" />
     <Compile Include="FrmConsultaVeiculos.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="FrmConsultaVeiculos.Designer.cs">
       <DependentUpon>FrmConsultaVeiculos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Loading.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Loading.Designer.cs">
+      <DependentUpon>Loading.cs</DependentUpon>
     </Compile>
     <Compile Include="Model\ModelCombustivel.cs" />
     <Compile Include="Model\ModelConsulta.cs" />
@@ -68,6 +75,9 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="FrmConsultaVeiculos.resx">
       <DependentUpon>FrmConsultaVeiculos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Loading.resx">
+      <DependentUpon>Loading.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
@@ -96,6 +106,7 @@
   <ItemGroup>
     <None Include="Imagem\error.png" />
     <None Include="Imagem\Loading.gif" />
+    <None Include="Imagem\Carregando.gif" />
     <Content Include="ImgPlaca.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
