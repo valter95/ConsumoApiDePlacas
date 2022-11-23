@@ -15,7 +15,6 @@ C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Release\Cons
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Release\Consulta Placa de Veiculos.pdb
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Release\Newtonsoft.Json.dll
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\bin\Release\Newtonsoft.Json.xml
-C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.csprojAssemblyReference.cache
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.FrmConsultaVeiculos.resources
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.Properties.Resources.resources
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.csproj.GenerateResource.cache
@@ -23,3 +22,4 @@ C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\Cons
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.csproj.CopyComplete
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\Consulta Placa de Veiculos.exe
 C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\Consulta Placa de Veiculos.pdb
+C:\Users\Valtinho\Programas\ConsumoApiDePlacas\ConsultaVeiculos\obj\Release\ConsultaVeiculos.FrmLoading.resources

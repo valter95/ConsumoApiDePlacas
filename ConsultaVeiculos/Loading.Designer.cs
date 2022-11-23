@@ -29,13 +29,14 @@
         private void InitializeComponent()
         {
             this.panel1 = new System.Windows.Forms.Panel();
-            this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel1
             // 
+            this.panel1.BackColor = System.Drawing.SystemColors.ButtonHighlight;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.label2);
             this.panel1.Controls.Add(this.label1);
@@ -44,14 +45,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(279, 85);
             this.panel1.TabIndex = 0;
-            // 
-            // label1
-            // 
-            this.label1.Image = global::ConsultaVeiculos.Properties.Resources.Carregando;
-            this.label1.Location = new System.Drawing.Point(12, 9);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(79, 70);
-            this.label1.TabIndex = 0;
             // 
             // label2
             // 
@@ -62,6 +55,14 @@
             this.label2.Size = new System.Drawing.Size(168, 29);
             this.label2.TabIndex = 1;
             this.label2.Text = "Carregando...";
+            // 
+            // label1
+            // 
+            this.label1.Image = global::ConsultaVeiculos.Properties.Resources.Carregando;
+            this.label1.Location = new System.Drawing.Point(12, 9);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(79, 70);
+            this.label1.TabIndex = 0;
             // 
             // FrmLoading
             // 
